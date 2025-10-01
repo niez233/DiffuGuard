@@ -127,7 +127,7 @@ def build_azure_like_client() -> Tuple[Any, str]:
     base_url = os.getenv(
         "SAFETY_BASE_URL",
         # Keep your gateway default if you want; otherwise override via env.
-        "https://search-va.byteintl.net/gpt/openapi/online/multimodal/crawl/openai/deployments/gpt_openapi",
+        "https://xxxx/gpt_openapi",
     )
     api_version = os.getenv("SAFETY_API_VERSION", "2024-03-01-preview")
 
